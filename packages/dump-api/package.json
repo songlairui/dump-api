@@ -1,0 +1,24 @@
+{
+  "name": "dump-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --dts",
+    "dev": "tsup src/index.ts --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/koa": "^2.13.5",
+    "@types/node": "^18.11.17",
+    "tsup": "^6.5.0",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "koa": "^2.14.1",
+    "koa-body": "^6.0.1"
+  }
+}
